@@ -1,0 +1,17 @@
+{
+  "name": "static_web_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start:dev": "live-server public/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
